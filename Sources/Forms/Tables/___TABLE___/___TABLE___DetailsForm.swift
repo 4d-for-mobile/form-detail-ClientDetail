@@ -14,26 +14,26 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
 
     /// The record displayed in this form
     var record: ___TABLE___ {
-        return super.record as! ___TABLE___
+        return super.record as! ___TABLE___ // swiftlint:disable:this force_cast
     }
 
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var previousButton: UIButton!
     @IBOutlet weak var actionButton: UIButton!
-    
+
     @IBAction func backButton(_ sender: Any) {
         self.dismiss(animated: true)
     }
-    
+
     @IBAction override func nextRecord(_ sender: Any!) {
         self.nextRecord()
     }
-    
+
     @IBAction override func previousRecord(_ sender: Any!) {
         self.previousRecord()
     }
-    
+
     // MARK: Events
     override func onLoad() {
         backButton.transform = CGAffineTransform(scaleX: 0, y: 0)
@@ -41,11 +41,11 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
         nextButton.transform = CGAffineTransform(scaleX: 0, y: 0)
         actionButton.transform = CGAffineTransform(scaleX: 0, y: 0)
     }
-    
+
     override func onWillAppear(_ animated: Bool) {
         // Called when the view is about to made visible. Default does nothing
     }
-    
+
     override func onDidAppear(_ animated: Bool) {
         UIView.animate(withDuration: 1.5,
                        delay: 0.2,
@@ -56,7 +56,7 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
                         self.backButton.transform = .identity
         },
                        completion: nil)
-        
+
         UIView.animate(withDuration: 1.5,
                        delay: 0.4,
                        usingSpringWithDamping: 0.6,
@@ -66,7 +66,7 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
                         self.previousButton.transform = .identity
         },
                        completion: nil)
-        
+
         UIView.animate(withDuration: 1.5,
                        delay: 0.6,
                        usingSpringWithDamping: 0.6,
@@ -76,7 +76,7 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
                         self.nextButton.transform = .identity
         },
                        completion: nil)
-        
+
         UIView.animate(withDuration: 1.5,
                        delay: 0.8,
                        usingSpringWithDamping: 0.6,
@@ -87,15 +87,15 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
         },
                        completion: nil)
     }
-    
+
     override func onWillDisappear(_ animated: Bool) {
         // Called when the view is dismissed, covered or otherwise hidden. Default does nothing
     }
-    
+
     override func onDidDisappear(_ animated: Bool) {
         // Called after the view was dismissed, covered or otherwise hidden. Default does nothing
     }
-    
+
     // MARK: Custom actions
-    
+
 }
