@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJQ-uW-weF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJQ-uW-weF">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
         <array key="HelveticaNeueLights.ttc">
             <string>HelveticaNeue-Light</string>
         </array>
@@ -205,9 +209,7 @@
                                 <color key="tintColor" name="BackgroundColor"/>
                                 <state key="normal" image="moreButton"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="actions">
-                                        <string key="value">{"actions":[{"preset":"edition","icon":"action_editInvoices","tableNumber":2,"scope":"currentRecord","name":"editInvoices","shortLabel":"Edit…","label":"Edit…","parameters":[{"fieldNumber":7,"name":"Total","label":"Total","shortLabel":"Total","type":"number","defaultField":"total"},{"fieldNumber":8,"name":"Paid","label":"Status","shortLabel":"Status","type":"bool","defaultField":"paid","choiceList":["Paid","Unpaid"]},{"fieldNumber":2,"name":"InvoiceNumber","label":"Invoice Number","shortLabel":"Invoice Number","type":"string","defaultField":"invoice_Number"},{"fieldNumber":4,"name":"CreationDate","label":"Creation Date","shortLabel":"Creation Date","type":"date","defaultField":"creation_Date","format":"shortDate"},{"fieldNumber":9,"name":"PaymentDate","label":"Payment Date","shortLabel":"Payment Date","type":"date","defaultField":"payment_Date","format":"shortDate"},{"fieldNumber":10,"name":"PaymentMethod","label":"Payment Method","shortLabel":"Payment Method","type":"string","defaultField":"payment_Method"},{"fieldNumber":13,"name":"PaymentDelay","label":"Payment Delay","shortLabel":"Payment Delay","type":"number","defaultField":"payment_Delay","format":"integer"},{"fieldNumber":15,"name":"CreditNote","label":"Credit Note","shortLabel":"Credit Note","type":"bool","defaultField":"credit_Note"}]}]}</string>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tde-nT-Coc" userLabel="closeButton">
