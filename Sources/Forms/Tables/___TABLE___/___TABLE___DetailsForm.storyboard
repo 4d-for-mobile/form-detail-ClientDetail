@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJQ-uW-weF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJQ-uW-weF">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -71,7 +72,7 @@
                                                                             </label>
                                                                             <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-FD-004">
                                                                                 <rect key="frame" x="33" y="52.5" width="300" height="1"/>
-                                                                                <color key="backgroundColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="1" id="TAG-FD-005"/>
                                                                                 </constraints>
@@ -85,7 +86,7 @@
                                                                                 </userDefinedRuntimeAttributes>
                                                                             </label>
                                                                         </subviews>
-                                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="trailing" secondItem="TAG-FD-003" secondAttribute="trailing" constant="8" id="TAG-FD-007"/>
                                                                             <constraint firstItem="TAG-FD-003" firstAttribute="top" secondItem="TAG-FD-002" secondAttribute="top" constant="18" id="TAG-FD-008"/>
@@ -105,7 +106,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                 </subviews>
-                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstItem="TAG-FD-002" firstAttribute="top" secondItem="TAG-FD-001" secondAttribute="top" id="TAG-FD-017"/>
                                                                     <constraint firstAttribute="trailing" secondItem="TAG-FD-002" secondAttribute="trailing" id="TAG-FD-018"/>
@@ -114,14 +115,14 @@
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="top" secondItem="DIl-c9-uiY" secondAttribute="top" id="B3b-Hj-Liz"/>
                                                             <constraint firstAttribute="leading" secondItem="DIl-c9-uiY" secondAttribute="leading" id="Dn2-a2-by2"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="DA0-1H-hFF" firstAttribute="leading" secondItem="mKJ-9Y-JGx" secondAttribute="leading" id="ARc-dU-Bx1"/>
                                                     <constraint firstItem="DIl-c9-uiY" firstAttribute="top" secondItem="mKJ-9Y-JGx" secondAttribute="top" constant="62" id="Gy0-JH-jz2"/>
@@ -180,7 +181,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="mKJ-9Y-JGx" secondAttribute="trailing" id="0dp-Gk-5Gq"/>
                                             <constraint firstAttribute="bottom" secondItem="mKJ-9Y-JGx" secondAttribute="bottom" id="AIv-Av-i3w"/>
@@ -192,7 +193,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="bFz-vh-DGF" secondAttribute="bottom" id="42x-4f-NNs"/>
                                     <constraint firstAttribute="trailing" secondItem="bFz-vh-DGF" secondAttribute="trailing" id="JMs-EL-Dju"/>
@@ -200,7 +201,7 @@
                                     <constraint firstItem="bFz-vh-DGF" firstAttribute="top" secondItem="3O6-va-UAL" secondAttribute="top" id="o8Y-xv-dVt"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-t7-MOt" userLabel="action">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-t7-MOt" userLabel="action">
                                 <rect key="frame" x="342" y="794" width="52" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Ewh-HR-IaN"/>
@@ -212,7 +213,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tde-nT-Coc" userLabel="closeButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tde-nT-Coc" userLabel="closeButton">
                                 <rect key="frame" x="2" y="10" width="52" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="cya-Mf-Dzi"/>
@@ -224,7 +225,7 @@
                                     <action selector="backButton:" destination="JvF-J0-saY" eventType="touchUpInside" id="k95-hG-NUQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TS5-l7-u57" userLabel="previous">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TS5-l7-u57" userLabel="previous">
                                 <rect key="frame" x="320" y="10" width="52" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="3En-Sb-MQR"/>
@@ -236,7 +237,7 @@
                                     <action selector="previousRecord:" destination="JvF-J0-saY" eventType="touchUpInside" id="JgA-GC-NS3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwp-bw-sqe" userLabel="next">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwp-bw-sqe" userLabel="next">
                                 <rect key="frame" x="360" y="10" width="52" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Mln-rX-qy9"/>
@@ -249,7 +250,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="bFz-vh-DGF" secondAttribute="width" id="0qa-aN-Rh2"/>
                             <constraint firstItem="OWH-Kx-apU" firstAttribute="top" secondItem="3O6-va-UAL" secondAttribute="bottom" id="CVg-RZ-KSj"/>
@@ -330,17 +331,26 @@
     </scenes>
     <resources>
         <image name="___FIELD_ICON___" width="16" height="16"/>
-        <image name="backButton" width="240.66667175292969" height="240.66667175292969"/>
+        <image name="backButton" width="361" height="361"/>
         <image name="moreButton" width="150" height="150"/>
         <image name="next" width="22" height="22"/>
-        <image name="nextButton" width="240.66667175292969" height="240.66667175292969"/>
+        <image name="nextButton" width="361" height="361"/>
         <image name="previous" width="22" height="22"/>
-        <image name="previousButton" width="16" height="16"/>
+        <image name="previousButton" width="361" height="361"/>
         <namedColor name="BackgroundColor">
             <color red="0.19215686274509805" green="0.51372549019607838" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ForegroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
